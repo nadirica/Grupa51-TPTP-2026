@@ -360,3 +360,205 @@ transition:
 background-color 0.3s ease,
 color 0.3s ease;
 }
+
+.hero-sadrzaj {
+height: 70vh;
+background-image: url("../images/hero-sadrzaj.jpg");
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.hero-sadrzaj .overlay {
+background-color: rgba(0,0,0,0.5);
+}
+
+.hero-sadrzaj h2 {
+font-size: 4rem;
+margin-bottom: 15px;
+}
+
+.hero-sadrzaj p {
+font-size: 1.3rem;
+color: white;
+}
+
+.filter-nav a {
+text-decoration: none;
+color: var(--primary-color);
+font-weight: bold;
+padding: 10px;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+.filter-nav a:hover {
+background-color: var(--primary-color);
+color: white;
+transform: translateX(5px);
+}
+
+main section h2 {
+color: var(--primary-color);
+margin-bottom: 10px;
+position: relative;
+}
+
+main section h2::after {
+content: "";
+width: 80px;
+height: 4px;
+background-color: var(--secondary-color);
+display: block;
+margin-top: 8px;
+border-radius: 10px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+background-color: white;
+border-radius: 12px;
+overflow: hidden;
+box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+table th {
+background-color: var(--primary-color);
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+table td {
+padding: 14px;
+text-align: center;
+}
+
+table tr:nth-child(even) {
+background-color: #f3f3f3;
+}
+
+table tr:hover {
+background-color: var(--secondary-color);
+transition: 0.3s;
+}
+
+#lista ul {
+padding-left: 25px;
+}
+
+#lista li {
+margin-bottom: 12px;
+line-height: 1.7;
+color: var(--tertiary-color);
+}
+
+#lista ul ul {
+margin-top: 10px;
+}
+
+#lista ul ul li {
+color: var(--primary-color);
+}
+
+main section p {
+line-height: 1.8;
+font-size: 1.05rem;
+}
+
+a[href="#vrh"] {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 18px;
+background-color: var(--primary-color);
+color: white;
+text-decoration: none;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+a[href="#vrh"]:hover {
+background-color: var(--secondary-color);
+transform: translateY(-3px);
+}
+
+#galerija .card {
+transition:
+transform 0.3s ease,
+box-shadow 0.3s ease;
+}
+
+#galerija .card:hover {
+transform: scale(1.03);
+}
+
+.dark-theme table {
+background-color: #1f1f1f;
+color: white;
+}
+
+.dark-theme table td {
+color: white;
+}
+
+.dark-theme table tr:nth-child(even) {
+background-color: #2c2c2c;
+}
+
+.dark-theme table tr:hover {
+background-color: #3a3a3a;
+}
+
+.dark-theme #lista ul ul li {
+color: var(--secondary-color);
+}
+
+.dark-theme .filter-nav a {
+color: white;
+}
+
+.dark-theme .filter-nav a:hover {
+background-color: var(--secondary-color);
+}
+
+@media (max-width: 599px) {
+
+table {
+font-size: 0.8rem;
+}
+
+.hero-sadrzaj h2 {
+font-size: 2.2rem;
+}
+
+#mapa img {
+width: 100%;
+}
+
+.filter-nav {
+margin-bottom: 20px;
+}
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+.hero-sadrzaj h2 {
+font-size: 3rem;
+}
+
+table {
+font-size: 0.95rem;
+}
+}
+
+.filter-nav h3::before {
+content: "📌 ";
+}
+
+#tabela,
+#galerija,
+#mapa,
+#lista {
+animation: fadeIn 1s ease;
+}
