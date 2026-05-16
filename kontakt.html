@@ -2,153 +2,165 @@
 <html lang="bs">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kontakt | Turistički vodič Tuzlanskog kantona</title>
-<link rel="stylesheet" href="css/tptpstil.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Turistički vodič Tuzlanskog kantona</title>
+    <link rel="stylesheet" href="css/tptpstil.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
 
 <header>
 
-<div class="top-header">
-<div class="logo-section">
-<img id="site-logo" src="images/logo.png" alt="Logo turističkog vodiča">
-<h1>Turistički vodič Tuzlanskog kantona</h1>
-</div>
-</div>
+    <div class="top-header">
+        <div class="logo-section">
+            <img id="site-logo" src="images/logo.png" alt="Logo turističkog vodiča">
+            <h1>Turistički vodič Tuzlanskog kantona</h1>
+        </div>
+    </div>
 
-<div class="bottom-header">
-<nav>
-<a href="index.html">Početna</a>
-<a href="sadrzaj.html">Sadržaj</a>
-<a href="kontakt.html">Kontakt</a>
-<a href="https://github.com/nadirica/Grupa51-TPTP-2026" target="_blank">GitHub</a>
-</nav>
-</div>
+    <div class="bottom-header">
+        <nav>
+            <a href="index.html">Početna</a>
+            <a href="sadrzaj.html">Sadržaj</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="https://github.com/nadirica/Grupa51-TPTP-2026" target="_blank">GitHub</a>
+        </nav>
+    </div>
 
 </header>
 
 <section class="hero-kontakt">
-<div class="overlay">
-<h2>Kontaktirajte nas</h2>
-<p>
-Pošaljite prijedloge, pitanja ili preporuke za nova mjesta.
-</p>
-</div>
+    <div class="overlay">
+        <h2>Kontaktirajte nas</h2>
+        <p>
+            Pošaljite prijedloge, pitanja ili preporuke za nova mjesta.
+        </p>
+    </div>
 </section>
 
 <main>
-<section class="contact-container">
-<div class="contact-info">
-<h2>Turističke informacije</h2>
-<p>
-Naš cilj je predstaviti najljepše destinacije Tuzlanskog kantona.
-</p>
+    <section class="contact-container">
+        <div class="contact-info">
+            <h2>Turističke informacije</h2>
+            <p>
+                Naš cilj je predstaviti najljepše destinacije Tuzlanskog kantona.
+            </p>
 
-<div class="info-box">
-📍 Tuzla, Bosna i Hercegovina
-</div>
+            <div class="info-box">
+                📍 Tuzla, Bosna i Hercegovina
+            </div>
 
-<div class="info-box">
-📞 +387 61 123 456
-</div>
+            <div class="info-box">
+                📞 +387 61 123 456
+            </div>
 
-<div class="info-box">
-✉ info@tk-vodic.ba
-</div>
+            <div class="info-box">
+                ✉ info@tk-vodic.ba
+            </div>
 
-<svg class="animated-plane" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-<path d="M2 16L22 2L13 22L11 13L2 16Z"/>
-</svg>
-</div>
+            <svg class="animated-plane" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M2 16L22 2L13 22L11 13L2 16Z"/>
+            </svg>
+        </div>
 
-<div class="form-section">
-<h2>Pošaljite poruku</h2>
-<form id="contactForm" class="contact-form">
+        <div class="form-section">
+            <h2>Pošaljite poruku</h2>
+            <form id="contactForm" class="contact-form">
 
-<div class="form-group">
-<label for="ime">Ime</label>
-<input type="text"
-id="ime"
-placeholder="Unesite ime">
-</div>
+                <div class="form-group">
+                    <label for="ime">Ime</label>
+                    <input type="text"
+                           id="ime"
+                           placeholder="Unesite ime">
 
-<div class="form-group">
-<label for="prezime">Prezime</label>
-<input type="text"
-id="prezime"
-placeholder="Unesite prezime">
-</div>
+                    <small class="error-message"></small>
+                </div>
 
-<div class="form-group">
-<label for="email">Email</label>
-<input type="text"
-id="email"
-placeholder="example@email.com">
-</div>
+                <div class="form-group">
+                    <label for="prezime">Prezime</label>
+                    <input type="text"
+                           id="prezime"
+                           placeholder="Unesite prezime">
+                    <small class="error-message"></small>
+                </div>
 
-<div class="form-group">
-<label for="telefon">Telefon</label>
-<input type="text"
-id="telefon"
-placeholder="+387 61 000 000">
-</div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text"
+                           id="email"
+                           placeholder="example@email.com">
+                    <small class="error-message"></small>
+                </div>
 
-<div class="form-group">
-<label for="tema">Tema upita</label>
-<select id="tema">
-<option value="">Odaberite temu</option>
-<option>Turističke destinacije</option>
-<option>Smještaj</option>
-<option>Manifestacije</option>
-<option>Prijedlog saradnje</option>
-</select>
-</div>
+                <div class="form-group">
+                    <label for="telefon">Telefon</label>
+                    <input type="text"
+                           id="telefon"
+                           placeholder="+387 61 000 000">
+                    <small class="error-message"></small>
+                </div>
 
-<div class="form-group">
-<label for="poruka">Poruka</label>
-<textarea id="poruka"
-placeholder="Napišite poruku..."></textarea>
-</div>
+                <div class="form-group">
+                    <label for="tema">Tema upita</label>
+                    <select id="tema">
+                        <option value="">Odaberite temu</option>
+                        <option>Turističke destinacije</option>
+                        <option>Smještaj</option>
+                        <option>Manifestacije</option>
+                        <option>Prijedlog saradnje</option>
+                    </select>
+                    <small class="error-message"></small>
+                </div>
 
-<div class="contact-buttons">
-<button type="submit"
-class="submit-btn">
-Pošalji
-</button>
-<button type="reset"
-class="reset-btn">
-Reset
-</button>
-</div>
+                <div class="form-group">
+                    <label for="poruka">Poruka</label>
+                    <textarea id="poruka"
+                              placeholder="Napišite poruku..."></textarea>
+                    <small class="error-message"></small>
+                </div>
 
-</form>
+                <div class="contact-buttons">
+                    <button type="submit"
+                            class="submit-btn">
+                        Pošalji
+                    </button>
+                    <button type="reset"
+                            class="reset-btn">
+                        Reset
+                    </button>
+                </div>
 
-</div>
-</section>
+            </form>
+            
+            <div id="successMessage"></div>
+        
+        </div>
+    </section>
 </main>
 
 <footer>
-<p>
-© 2026 - Nadira Mahovkić,
-Naida Gluhić,
-Naida Šerifović
-</p>
-<p>
-<a href="https://www.instagram.com/turistickazajednicatk/"
-target="_blank">
-Instagram
-</a>
-|
-<a href="https://www.facebook.com/tzgradatuzla"
-target="_blank">
-Facebook
-</a>
-</p>
+    <p>
+        © 2026 - Nadira Mahovkić,
+        Naida Gluhić,
+        Naida Šerifović
+    </p>
+    <p>
+        <a href="https://www.instagram.com/turistickazajednicatk/"
+           target="_blank">
+            Instagram
+        </a>
+        |
+        <a href="https://www.facebook.com/tzgradatuzla"
+           target="_blank">
+            Facebook
+        </a>
+    </p>
 
 </footer>
+
+<script src="js/tptpskripte.js"></script>
 
 </body>
 </html>
