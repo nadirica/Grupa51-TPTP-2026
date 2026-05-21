@@ -6,8 +6,8 @@
 | Ime i prezime | GitHub | Zaduženje |
 | --- | --- | --- |
 | Nadira Mahovkić | @nadirica | HTML + struktura |
-| Naida Šerifović | @naidaserifovic-tech | CSS + dizajn |
-| Naida Gluhić | @naidagluhic | JavaScript |
+| Naida Gluhić | @naidagluhic | CSS + dizajn |
+| Naida Šerifović | @naidaserifovic-tech | JavaScript |
 
 ## Tehnologije
 -HTML5
